@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Property</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .pad{
+            height: 50px;
+            width: 50px;
+            padding:5px 10px 15px 20px;
+              margin: 5px;
+              box-sizing:border-box;
+        }
+        #first{
+            background-color: red;
+            border: 5px solid;
+            border-radius: 20px;
+        }
+         #second{
+            background-color:blue;
+            border: 5px dashed;
+        }
+    </style>
+</head>
+<body>
+    <div id="first" class="pad">Hello </div>
+    <div id="second" class="pad">World</div>
+</body>
+</html>
